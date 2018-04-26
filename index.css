@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hh {
+	/*border: 2px solid black;*/
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+	text-align: center
+}
+
+.mm {
+	/*border: 2px solid black;*/
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.ss {
+/*	border: 2px solid black;*/
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+	text-align: center
+}
+
+.clock {
+
+	font-size: 100px;
+	height: 100%;
+	text-align: center;
+}
