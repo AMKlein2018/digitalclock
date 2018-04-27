@@ -32,14 +32,14 @@ function clock () {
 
 	// """"""""""
 
-	if (hh => 00 && hh <= 08 ){
+	if (hh >= 00 && hh <= 08 ){
 		console.log(hh);
 		document.body.style.backgroundImage = "url('dodgeball1.jpg')";
 		greeting = "Good Morning!";
-	} else if (hh => 09 && hh <= 16){
+	} else if (hh >= 09 && hh <= 16){
 		document.body.style.backgroundImage = "url('dodgeball2.jpeg')";
 		greeting = "Good Afternoon!";
-	} else if (hh => 17 && hh <= 24) {
+	} else if (hh >= 17 && hh <= 24) {
 		document.body.style.backgroundImage = "url('dodgeball3.jpeg')";
 		greeting = "Good Evening!";
 	}
